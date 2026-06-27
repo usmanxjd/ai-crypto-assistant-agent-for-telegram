@@ -7,7 +7,6 @@ from bot.constants import (
     CALLBACK_HELP,
     CALLBACK_MARKET,
     CALLBACK_PRICES,
-    CALLBACK_SEARCH_COIN,
     CALLBACK_MAIN_MENU,
 )
 
@@ -16,14 +15,13 @@ def main_menu_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📈 Coin Prices", callback_data=CALLBACK_PRICES),
-                InlineKeyboardButton("🔎 Search Coin", callback_data=CALLBACK_SEARCH_COIN),
+                InlineKeyboardButton("📈 Prices", callback_data=CALLBACK_PRICES),
+                InlineKeyboardButton("📊 Market", callback_data=CALLBACK_MARKET),
             ],
             [
-                InlineKeyboardButton("📊 Market Dashboard", callback_data=CALLBACK_MARKET),
                 InlineKeyboardButton("🤖 Ask AI", callback_data=CALLBACK_ASK_AI),
+                InlineKeyboardButton("ℹ️ Help", callback_data=CALLBACK_HELP),
             ],
-            [InlineKeyboardButton("ℹ️ Help", callback_data=CALLBACK_HELP)],
         ]
     )
 

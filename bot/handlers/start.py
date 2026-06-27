@@ -8,21 +8,16 @@ from bot.keyboards.main_menu import back_to_main_keyboard, main_menu_keyboard
 
 WELCOME_TEXT = (
     "👋 *Welcome to Crypto AI Assistant*\n\n"
-    "Check coin prices, search any crypto, view a market dashboard, or ask AI questions in normal language.\n\n"
-    "You can use the buttons below, or simply type things like:\n"
-    "• `btc price`\n"
-    "• `search pepe`\n"
-    "• `what is market cap?`\n\n"
+    "Use the buttons below to explore crypto prices, market snapshots, and AI explanations.\n\n"
     "What would you like to do?"
 )
 
 HELP_TEXT = (
     "ℹ️ *How to Use This Bot*\n\n"
-    "📈 *Coin Prices* — check popular coin price cards.\n"
-    "🔎 *Search Coin* — search any coin by name or symbol.\n"
-    "📊 *Market Dashboard* — view global stats, movers, and trending coins.\n"
+    "📈 *Prices* — check live prices for popular coins.\n"
+    "📊 *Market* — see a quick snapshot of tracked coins.\n"
     "🤖 *Ask AI* — ask beginner-friendly crypto questions.\n\n"
-    "You can also type naturally, for example `bitcoin price` or `explain ethereum gas fees`.\n\n"
+    "Coming next: watchlists, price alerts, news summaries, and portfolio tracking.\n\n"
     f"_{DISCLAIMER}_"
 )
 

@@ -5,22 +5,20 @@ A beginner-friendly, button-based Telegram crypto assistant built with Python, f
 ## What this bot offers
 
 - Button-based Telegram menus instead of command-heavy flows.
-- Natural chat support so users can type crypto questions directly.
 - Live crypto price checks using CoinGecko's public API.
-- Search for coins by name or symbol.
-- Detailed market dashboard with global stats, movers, and trending coins.
-- AI crypto question answering and market summaries using Groq Cloud.
+- Basic market overview for popular coins.
+- AI crypto question answering using Groq Cloud.
 - Friendly help and financial-risk disclaimer screens.
 - A clean architecture that can grow into Fiverr Basic, Standard, and Premium packages.
 
 ## MVP workflow
 
 1. User opens the bot and taps `/start`.
-2. Bot shows a button menu: Coin Prices, Search Coin, Market Dashboard, Ask AI, Help.
-3. User taps a feature button or types naturally.
+2. Bot shows a button menu: Prices, Market, Ask AI, Help.
+3. User taps a feature button.
 4. The bot calls the needed service:
-   - CoinGecko for live crypto market data, search, global stats, movers, and trending coins.
-   - Groq for AI explanations, market summaries, and crypto education.
+   - CoinGecko for live crypto market data.
+   - Groq for AI explanations and crypto education.
 5. The bot formats the result into a simple Telegram-friendly response.
 6. User can go back to the main menu at any time.
 
@@ -36,8 +34,7 @@ Python Bot App
 Handlers
     ├── Start/Menu
     ├── Prices
-    ├── Search
-    ├── Market Dashboard
+    ├── Market
     ├── Ask AI
     └── Help
     ↓

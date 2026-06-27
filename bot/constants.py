@@ -1,8 +1,8 @@
 """Shared constants for the Telegram crypto assistant."""
 
 DISCLAIMER = (
-    "Educational information only — not financial advice. "
-    "Crypto markets are risky and volatile."
+    "This bot provides educational and informational content only. "
+    "It is not financial advice. Crypto markets are risky and volatile."
 )
 
 POPULAR_COINS = {
@@ -17,11 +17,8 @@ POPULAR_COINS = {
 CALLBACK_MAIN_MENU = "main_menu"
 CALLBACK_PRICES = "prices"
 CALLBACK_MARKET = "market"
-CALLBACK_MARKET_AI = "market_ai"
-CALLBACK_SEARCH_COIN = "search_coin"
 CALLBACK_ASK_AI = "ask_ai"
 CALLBACK_HELP = "help"
 CALLBACK_BACK = "back"
 CALLBACK_PREFIX_PRICE = "price:"
 CALLBACK_PREFIX_EXPLAIN = "explain:"
-CALLBACK_PREFIX_SEARCH_RESULT = "search_result:"
